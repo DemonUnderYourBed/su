@@ -1822,7 +1822,7 @@ wait();
 
 Notify({
 Description = "Rejoining...";
-Title = "Nameless Admin";
+Title = "Demon Admin";
 Duration = 5;
 
 });
@@ -2573,7 +2573,7 @@ cmd.add({"unvfly", "unvehiclefly"}, {"unvehiclefly (unvfly)", "disable vehicle f
 		
 		Notify({
 		Description = "Vehicle fly disabled";
-		Title = "Nameless Admin";
+		Title = "Demon Admin";
 		Duration = 5;
 	
 });
@@ -3101,7 +3101,7 @@ cmd.add({"sync"}, {"sync", "Syncs all in-game audios"}, function()
 		else
 		Notify({
 		Description = "This game has RFE on, meaning this wont replicate.";
-		Title = "Nameless Admin";
+		Title = "Demon Admin";
 		Duration = 7;
 		
 		});
@@ -3647,7 +3647,7 @@ cmd.add({"tornado"}, {"tornado <player>", "Tornados the player to be in the sky"
 
 Notify({
 Description = "This command only works on R6";
-Title = "Nameless Admin";
+Title = "Demon Admin";
 Duration = 7;
 
 });
@@ -4109,7 +4109,7 @@ Duration = 5;
 				
 				Notify({
 				Description = "Anti AFK has been enabled";
-				Title = "Nameless Admin";
+				Title = "Demon Admin";
 				Duration = 5;
 				
 });
@@ -4189,7 +4189,7 @@ Duration = 5;
 							
 							Notify({
 							Description = "Spawn has been set";
-							Title = "Nameless Admin";
+							Title = "Demon Admin";
 							Duration = 5;
 							
 });
@@ -4401,7 +4401,7 @@ tool.Parent = Players.LocalPlayer.Backpack
 					
 					Notify({
 					Description = "Anti kill enabled";
-					Title = "Nameless Admin";
+					Title = "Demon Admin";
 					Duration = 5;
 					
 });
@@ -5567,9 +5567,9 @@ cmd.add({"functionspy"}, {"functionspy", "Check console"}, function()
 	local function KVVJTK_fake_script() -- FakeTitle.DragScript 
 		local script = Instance.new('LocalScript', FakeTitle)
 	
-		--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+		--made by me, check out this video: https://www.youtube.com/watch?v=G9HlvB8fSio&ab_channel=MaxwellTheCat
 		--Put this inside of your Frame and configure the speed if you would like.
-		--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+		--Enjoy! sussy video go to: https://www.youtube.com/watch?v=XepCXEUi87Q&t=15s&ab_channel=MaxwellTheCat
 		
 		local UIS = game:GetService('UserInputService')
 		local frame = script.Parent.Parent
@@ -5663,7 +5663,7 @@ FLYING = false
 		
 		Notify({
 		Description = "Fly enabled";
-		Title = "Nameless Admin";
+		Title = "Demon Admin";
 		Duration = 5;
 	
 });
@@ -7012,7 +7012,7 @@ cmd.add({"netbypass", "netb"}, {"netbypass (netb)", "Net bypass"}, function()
 	
 	Notify({
 	Description = "Netbypass enabled";
-	Title = "Nameless Admin";
+	Title = "Demon Admin";
 	Duration = 5;
 	
 	});
@@ -8451,7 +8451,7 @@ end)
 	
 	Notify({
 	Description = "Unloopmuted everyone";
-	Title = "Nameless Admin";
+	Title = "Demon Admin";
 	Duration = 5;
 	
 	});
@@ -9511,7 +9511,7 @@ end)
 	   if Humanoid.RigType == Enum.HumanoidRigType.R15 then
 		  Notify({
 Description = "This command only works on R6";
-Title = "Nameless Admin";
+Title = "Demon Admin";
 Duration = 7;
 
 });
@@ -11685,7 +11685,7 @@ cmd.add({"oganims"}, {"oganims", "Old animations from 2007"}, function()
 	
 	Notify({
 	Description = "OG animations set";
-	Title = "Nameless Admin";
+	Title = "Demon Admin";
 	Duration = 5;
 	
 });
